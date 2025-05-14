@@ -1,4 +1,4 @@
-const numeros = [1, 2, 3];
+const numeros = [1, 2, 8];
 // apesar de ser uma const (constante), pode ser alterado ou incluir valor
 
 const numbers = Object.freeze([1, 2, 3])
@@ -16,5 +16,5 @@ console.log(numeros[0])
 console.log(numbers[0])
 
 console.log(`O comprimento do Array é ${numeros.length}!`)
-console.log(`O último Array está no localizado no Index ${numeros[numeros.length - 1]}!`) 
+console.log(`O último Array está no localizado no Index ${numeros.length - 1}!`) 
 // não apareceu como 2, necessário verificar
